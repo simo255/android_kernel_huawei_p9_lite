@@ -119,7 +119,7 @@ config DEFAULT_IOSCHED
 	default "cfq" if DEFAULT_CFQ
 	default "noop" if DEFAULT_NOOP
 	default "fiops" if DEFAULT_FIOPS
-	default "sio" if DEFAULT_FIOPS
+	default "sio" if DEFAULT_SIO
 
 endmenu
 
